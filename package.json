@@ -1,0 +1,24 @@
+{
+  "name": "nodestock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "exphbs": "^1.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "exprss": "0.0.1-security",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
