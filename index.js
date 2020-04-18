@@ -1,7 +1,7 @@
-const express = require('express');
+const express = require('express')
 const exphbs = require('express-handlebars')
-const app = express();
-const port = process.env.port || 5000
+const app = express()
+const port = process.env.PORT || 5000
 const path = require('path')
 const body_parser = require('body-parser')
 
@@ -48,7 +48,5 @@ app.post('/',function (req,res) {
 
 // set a static folder
 app.use(express.static(path.join(__dirname,'public')))
-
-
 app.listen(port,() => console.log('Server listening on port ' + port))
 
